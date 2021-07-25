@@ -24,3 +24,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 # Slight overView
 
 ![alt text](https://raw.githubusercontent.com/jayendramadaram/Youtube-Clone/main/Screenshot%202021-07-25%20215400.jpg?raw=true)
+
+### * HOME PAGE *
+
+![alt text](https://github.com/jayendramadaram/Youtube-Clone/blob/main/Screenshot%202021-07-25%20215524.jpg?raw=true)
