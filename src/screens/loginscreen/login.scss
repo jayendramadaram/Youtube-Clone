@@ -1,0 +1,60 @@
+@import "../../_base.scss";
+
+
+
+.login {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+    .cont {
+        background-color: $black-secondary;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+
+        img {
+            height: 400px;
+            width: 400px;
+            margin: 90px;
+            margin-bottom: 0px !important;
+        }
+
+        button {
+            width: 50%;
+            margin-bottom: 20px;
+            
+            
+        }
+    }
+}
+
+@media only screen and (max-width : 660px) {
+    .login {
+    
+    
+        .cont {
+    
+            img {
+                height: 200px;
+                width: 200px;
+                margin: 40px;
+                margin-bottom: 0px !important;
+            }
+    
+            button {
+                width: 50%;
+                margin-bottom: 11px;
+                
+                
+            }
+        }
+    }
+    
+}

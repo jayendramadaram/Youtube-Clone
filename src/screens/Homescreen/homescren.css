@@ -1,0 +1,12 @@
+.scl {
+    overflow-y: scroll;
+    height: 90vh;
+    padding: 0px !important;
+
+
+}
+
+.scl::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }

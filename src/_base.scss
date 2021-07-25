@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+$text-color: rgb(240, 233, 233);
+
+$black-primary : rgb(34, 34, 34);
+$black-secondary : black;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $black-primary;
+    background-attachment: fixed;
+    letter-spacing: 0.1px;
+    color: $text-color;
+    font-family: 'Roboto', sans-serif;
+}
+
+$breakpoint-small : 520px;
+$breakpoint-medium: 1224px

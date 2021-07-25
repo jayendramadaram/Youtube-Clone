@@ -1,0 +1,13 @@
+export const LOGIN_SUCCESS ='LOGIN_SUCCESS'
+export const LOGIN_FAIL ='LOGIN_FAILED'
+export const LOG_OUT ='LOGOUT'
+export const LOGIN_REQUEST ='LOGIN_REQUEST'
+export const LOAD_PROFILE ='LOAD_PROFILE'
+
+
+
+
+export const HOME_VEDIO_SUCCESS = 'HOME_VEDIO_SUCCESS'
+export const HOME_VEDIO_FAIL = 'HOME_VEDIO_FAIL'
+export const HOME_VEDIO_REQUEST = 'HOME_VEDIO_REQUEST'
+

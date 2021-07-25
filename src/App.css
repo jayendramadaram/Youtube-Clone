@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 
+const Layout = ({ children }) => {
+  const [sidebar, toggleSidebar] = useState(false)
+
+  const handleToggleSidebar = () => toggleSidebar(value => !value)
+
+  return (
+     <>
+        <Header c={handleToggleSidebar} />
+        <div className='app__container'>
+           <Sidebar
+              sidebar={sidebar}
+              handleToggleSidebar={handleToggleSidebar}
+           />
+           <Container fluid className='app__main '>
+              {children}
+           </Container>
+        </div>
+     </>
+  ) */
+
+
+/* const App = () => {
+  const { accessToken, loading } = useSelector(state => state.auth)
+
+  const history = useHistory()
+
+  useEffect(() => {
+     if (!loading && !accessToken) {
+        history.push('/auth')
+     }
+  }, [accessToken, loading, history])
+
+  return (
+     <Switch>
+        <Route path='/' exact>
+           <Layout>
+              <HomeScreen />
+           </Layout>
+        </Route>
+
+        <Route path='/auth'>
+           <Login />
+        </Route>
+
+        <Route path='/search/:query'>
+           <Layout>
+              <SearchScreen />
+           </Layout>
+        </Route>
+
+        <Route>
+           <Redirect to='/' />
+        </Route>
+     </Switch>
+  ) */
+
+
+
+/* 
+  const Layout = ( { children } ) => {
+    return (
+      <div>
+      <Header c={this.handleclick} />
+    
+    <Container  fluid className="sec_phase">
+      <Sidebar sider={this.state.sider} c={this.handleclick} />
+
+      <Container fluid className="p-0">
+        { children }
+      </Container>
+
+
+    </Container>
+    </div>
+    )
+
+  }
+} */

@@ -1,0 +1,44 @@
+@import "../../_base.scss";
+
+.catbar {
+    display: flex;
+    overflow-x: scroll;
+    font-size: 1rem;
+    padding: 0.5rem 0rem;
+
+    &::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+      }
+
+      background-color: $black-secondary;
+      
+      
+
+    span {
+        padding: 0.2rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        border-radius: 70px;
+        border: 2px solid rgb(175, 175, 175);
+        white-space: nowrap;
+        margin-right: 0.5rem ;
+        margin-left: 0.5rem ;
+        font-weight: 800;
+        letter-spacing: 0.1rem;
+
+        
+    }
+
+    span:hover {
+        background-color: rgb(54, 87, 114);
+    }
+
+    
+
+}
+
+.active {
+    background-color: grey !important;
+}
+

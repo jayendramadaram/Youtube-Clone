@@ -1,0 +1,86 @@
+@import "../../_base.scss";
+
+.sidebar{
+    width: 250px;
+
+    background-color: $black-secondary;
+
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+
+    position: sticky;
+    top: 10vh;
+    left: 0vh;
+
+    ul{
+        list-style-type: none;
+        padding-left: 0px;
+        
+
+        li{
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            padding-left: 2rem !important;
+            font-size: 20px;
+            
+
+            span {
+                margin-left: 1rem;
+                font-size: 15px !important;
+
+            }
+
+            padding: 0.6rem;
+
+
+            &:hover{
+                background-color: grey !important;
+            }
+        }
+
+
+        
+    }
+    transition: transform 0.2s ease-in;
+
+    &.change{
+        transform: translateX(0%);
+    }
+}
+
+
+
+@media only screen and (max-width : $breakpoint-medium) {
+
+    .sidebar {
+        width: 90px;
+        ul {
+            li{
+                display: flex;
+                flex-direction: column;
+                padding: 0% !important;
+                margin-bottom: 0px;
+                padding-bottom: 1rem !important;
+                padding-top: 1rem !important;
+
+                span{
+                    display: none;
+                }
+            }
+        }
+    }
+      
+}
+
+@media only screen and (max-width : $breakpoint-small) {
+    .sidebar{
+        transform: translateX(-100%);
+        position: fixed;
+        z-index: 9;
+    }
+
+    
+}
